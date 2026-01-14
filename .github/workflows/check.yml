@@ -24,7 +24,7 @@ jobs:
         run: npm ci
 
       - name: Cache Turbo artifacts
-        uses: rharkor/caching-for-turbo@v2.3.9
+        uses: rharkor/caching-for-turbo@v2.3.10
         with:
           max-age: 1d
 
